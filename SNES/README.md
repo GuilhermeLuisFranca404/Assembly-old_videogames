@@ -40,3 +40,6 @@ Diagrama de blocos do Snes:<br>
 
 # Placa mãe: <small><small><small><small><small><small><small>( É recomendado conhecer o hardware físico para ter uma visão geral do sistema em que estamos programando. Errata: a Vram são os dois chips de 32KiB localizados perto das PPUs. Na imagem está como “Wram”.)</small></small></small></small></small></small></small>
 <img height="100%" src="motherboard-snes.jpg"><br>
+
+## veja informações do processamento destes hardwares em:
+<a href="https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_Specs">Link</a> (https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_Specs)
