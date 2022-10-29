@@ -35,11 +35,22 @@ Diagrama de blocos do Snes:<br>
 &nbsp;&nbsp;Se dentro do cartucho não tiver o Cic ou não seja o Cic correto, o console reinicia automaticamente e fica bloqueado, esse bloqueio acontece pois o Cic no console está conectado a um chip de RESET no console (não mostrado no diagrama de blocos), e se houver um problema é bloqueado o console.<br>
 &nbsp;&nbsp;A grande sacada é o seguinte, apenas a Nintendo fabricava esse chip, logo as empresas fabricantes de jogos precisavam comprar esses chips, portando apenas originais rodavam, bloqueando jogos piratas, o sucesso desse mecanismo foi grande, porém um dia uma versão interna do software do Cic acabou vazando e todo o plano indo por água abaixo.
 
+# 28P Expansion Connector:
+&nbsp;&nbsp;O Snes também possui um conector de expansão de 28 pinos que serve para conectar hardwares externos que viessem a ser fabricados.
+
 # Por fim os esquema geral do hardware do console: <small><small><small><small><small><small><small>(Precisaremos disto quando formos programar em assembly)</small></small></small></small></small></small></small>
 <img height="100%" src="schematic-snes.png"><br>
 
 # Placa mãe: <small><small><small><small><small><small><small>( É recomendado conhecer o hardware físico para ter uma visão geral do sistema em que estamos programando. Errata: a Vram são os dois chips de 32KiB localizados perto das PPUs. Na imagem está como “Wram”.)</small></small></small></small></small></small></small>
 <img height="100%" src="motherboard-snes.jpg"><br>
+# Detalhes Gerais:
+Processdor:  Snes possui uma Cpu baseada no Western 65C816. Em vídeo futuros detalharei melhor essa cpu e veremos que a Nintendo encapsulou o 65C816 junto com outras funcionalidades e no final a cpu usada é uma Ricoh 5A22.<br>
+
+Ram: O Snes possui 128KiB de ram, que ficam em apenas um chip, que é customizado para conectar os dois barramentos de endereço do Snes.<br>
+
+Video: O Snes possui um chip de vídeo bem interessante com vários modos gráficos. Esses modos diferem no número de planos, cores, resolução, etc. O sétimo modo (Mode-7) é o mais diferente e permite um gráfico pseudo 3D bem legal, o que é usado em jogos como Mario Kart por exemplo. O Snes possui 64KiB de Vram (Video Ram). A PPU (Picture Processing Unit) do Snes na verdade é dividida em dois chips, o PPU1 e o PPU2.<br>
+
+Aúdio: O Snes possui dois chips dedicados à parte sonora. O SPC700 é um projeto da Sony, e tem uma interface muito simples e poderosa. Também possui um DSP (Digital Signal Processor) para efeitos sonoros. Possui também 64KiB de Ram para o áudio.
 
 ## veja informações do processamento destes hardwares em:
 <a href="https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_Specs">Link</a> (https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_Specs)
