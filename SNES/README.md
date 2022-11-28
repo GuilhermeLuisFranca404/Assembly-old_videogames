@@ -38,10 +38,10 @@ Diagrama de blocos do Snes:<br>
 # 28P Expansion Connector:
 &nbsp;&nbsp;O Snes também possui um conector de expansão de 28 pinos que serve para conectar hardwares externos que viessem a ser fabricados.
 
-# Por fim os esquema geral do hardware do console: <small><small><small><small><small><small><small>(Precisaremos disto quando formos programar em assembly)</small></small></small></small></small></small></small>
+# Por fim os esquema geral do hardware do console: (Precisaremos disto quando formos programar em assembly)
 <img height="100%" src="schematic-snes.png"><br>
 
-# Placa mãe: <small><small><small><small><small><small><small>( É recomendado conhecer o hardware físico para ter uma visão geral do sistema em que estamos programando. Errata: a Vram são os dois chips de 32KiB localizados perto das PPUs. Na imagem está como “Wram”.)</small></small></small></small></small></small></small>
+# Placa mãe: ( É recomendado conhecer o hardware físico para ter uma visão geral do sistema em que estamos programando. Errata: a Vram são os dois chips de 32KiB localizados perto das PPUs. Na imagem está como “Wram”.)
 <img height="100%" src="motherboard-snes.jpg"><br>
 # Detalhes Gerais:
 Processdor:  Snes possui uma Cpu baseada no Western 65C816. Em vídeo futuros detalharei melhor essa cpu e veremos que a Nintendo encapsulou o 65C816 junto com outras funcionalidades e no final a cpu usada é uma Ricoh 5A22.<br>

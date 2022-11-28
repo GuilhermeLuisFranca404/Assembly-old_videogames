@@ -1,5 +1,5 @@
 # Assembly-old_videogames
-Desvendando um pouco com assembly com video games antigos
+Desvendando um pouco com assembly com video games antigos, projeto baseado e creditos dados a <a target="_blank" href="https://www.youtube.com/watch?v=WoOVbPnpyjk&list=PLLFRf_pkM7b6Vi0ehPPovl1gQ5ubHTy5P&index=2">esta playlist brasileira</a>, conduzido por <a href="https://github.com/ManualDoCodigo">Douglas Diniz</a> do canal <a href="https://www.youtube.com/@ManualdoCodigo">Manual do Código</a>.
 
 # Unidades de medida
 Antes de entendermos o funcionamento do video games, vamos entender um pouco sobre unidades de medida, o básico é o seguinte, na ordem crescente de unidades básicas (decimais) temos: bit, byte, e a partir daí já podemos ter nossas medidas de unidades, onde entenda:
