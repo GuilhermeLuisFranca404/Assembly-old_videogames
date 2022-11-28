@@ -1,4 +1,8 @@
 # Assembly-old_videogames
+<h4 align="center"> 
+	🚧  🚀 Em construção...  🚧
+</h4>
+
 Desvendando um pouco com assembly com video games antigos, projeto baseado e creditos dados a <a target="_blank" href="https://www.youtube.com/watch?v=WoOVbPnpyjk&list=PLLFRf_pkM7b6Vi0ehPPovl1gQ5ubHTy5P&index=2">esta playlist brasileira</a>, conduzido por <a href="https://github.com/ManualDoCodigo">Douglas Diniz</a> do canal <a href="https://www.youtube.com/@ManualdoCodigo">Manual do Código</a>.
 
 # Unidades de medida
